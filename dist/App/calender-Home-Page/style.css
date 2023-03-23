@@ -1,0 +1,181 @@
+.text-center {
+  margin: 1em;
+}
+
+.fc-event-img img {
+  width: 20px;
+  height: 20px;
+}
+#calendar-container {
+  position: absolute;
+  min-width: 300px;
+  min-height: 500px;
+  margin: 30px;
+  width: 50%;
+  margin-top: 13%;
+  margin-left: 25%;
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  border-radius: 10px;
+  color: black;
+}
+.cards-container {
+  background-color: rgba(245, 245, 245, 0.582);
+  backdrop-filter: blur(50px);
+  z-index: 2;
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 0;
+  margin-left: 30%;
+  transition: width 5s;
+  border-radius: 5px;
+}
+.displayCard {
+  display: block;
+  top: 20%;
+  width: 50%;
+}
+#buttonXofCard {
+  width: 30px;
+  height: 30px;
+  background-color: rgba(244, 244, 244, 0.414);
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 5px;
+  padding: 0 5px 0 5px;
+}
+.window {
+  background-image: url("./img/Calendar\ background.jpg");
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+#navBar {
+  background-color: rgba(255, 255, 255, 0.13);
+  padding: 5px;
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  z-index: 3;
+  width: 100%;
+  height: 7%;
+  justify-content: center;
+  display: block;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+#calendarPage {
+  background-color: #ff605c;
+  color: black;
+}
+#calendarPage:hover {
+  background-color: #e5403a;
+}
+#createListPage {
+  background-color: #ffbd44;
+  color: black;
+  transition: background-color 0.3s ease-in-out;
+}
+#createListPage:hover {
+  background-color: #f2a529;
+}
+#doneListPage {
+  background-color: #00ca4e;
+  color: black;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#doneListPage:hover {
+  background-color: #00a341;
+}
+
+#LogoutBtn {
+  background-color: black;
+  color: white;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#LogoutBtn:hover {
+  background-color: black;
+}
+
+
+.gif {
+  margin: 5%;
+  margin-bottom: 30%;
+  width: 170px;
+  height: 170px;
+  border-radius: 5px;
+}
+.cardText{
+  margin-top: 5%;
+  font-weight: 600;
+}
+.card-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+
+}
+.date {
+  position: absolute;
+  right: 50px;
+  top: 5px;
+}
+.hederCard {
+  margin: 0px;
+  border-radius: 5px;
+  padding: 0 0 3px 5px;
+}
+.deleteList {
+  position: absolute;
+  right: 2%;
+  bottom: 2%;
+}
+.cardgreen {
+  background-color: #00a341;
+}
+.cardorange {
+  background-color: #f2a529;
+}
+.cardred {
+  background-color: #e5403a;
+}
+.DoneList{
+  position: absolute;
+  right: 5%;
+  bottom: 19%;
+}
+.doneText{
+  color:#00a341 ;
+}
+
+#header {
+  background-color: rgba(246, 246, 246, 0.466);
+  padding: 5px;
+  box-shadow: 0 0 40px rgba(37, 17, 188, 0.6);
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  z-index: 3;
+  display: inline;
+  position: absolute;
+  text-align: center;
+  margin-left:26%;
+  margin-top: 5px;
+  font-size: 50px;
+  font-family: "Dank Mono", ui-monospace, monospace;
+  
+}
+#header > span {
+  color: #f2a529;
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='64' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23a)'%3E%3Cpath d='M-17 30.5C-1 22 72-4 54 13 37.9 28.2-2.5 57.5 16 55.5s72-29 104-40' stroke='%2300FDCF' stroke-width='10'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='a'%3E%3Cpath fill='%23fff' d='M0 0h100v64H0z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+}
+#header > i {
+  margin-left:100px;
+  font-size: 20px;
+}

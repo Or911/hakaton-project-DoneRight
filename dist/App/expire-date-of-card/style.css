@@ -1,0 +1,109 @@
+#cardId{
+  margin: 50px auto;
+  max-width: 500px;
+  padding: 20px;
+  border: 1px solid #d96363;
+  border-radius: 10px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.13
+  ); /* slightly transparent background */
+  backdrop-filter: blur(100px);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* box shadow for depth effect */
+}
+
+#title-container {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #f7b801;
+  backdrop-filter: blur(100px);
+  margin: 20px auto;
+  max-width: 500px;
+  padding: 20px;
+  border: 1px solid #d96363;
+  border-radius: 10px;
+}
+
+.card {
+  color: #3d348b ;
+  background: #f7b801 !important;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  
+  background-image: url("./img/Calendar\ background.jpg");
+  background-size: cover;
+}
+  button {
+    margin-top: 50px;
+    width: 20%;
+    
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover{
+    color: #d11616;
+  }
+  
+  p {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .background {
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+  }
+  #navBar {
+    background-color: rgba(255, 255, 255, 0.13);
+    padding: 5px;
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    z-index: 3;
+    width: 100%;
+    height: 7%;
+    justify-content: center;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+  }
+  #calendarPage {
+    background-color: #ff605c;
+    color: black;
+  }
+  #calendarPage:hover {
+    background-color: #e5403a;
+  }
+  #createListPage {
+    background-color: #ffbd44;
+    color: black;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #createListPage:hover {
+    background-color: #f2a529;
+  }
+  
+  #doneListPage {
+    background-color: #00ca4e;
+    color: black;
+    transition: background-color 0.3s ease-in-out;
+  }
+  #doneListPage:hover {
+    background-color: #00a341;
+  }
